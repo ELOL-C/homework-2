@@ -10,20 +10,20 @@ int main()
 	double a,b ,c ;
 	double ar;
 	double r,ran;
-	cout << "½Ğ¿é¤JÃäa:";
+	cout << "è«‹è¼¸å…¥é‚Ša:";
 	cin >> a ;
-	cout << "½Ğ¿é¤JÃäb:";
+	cout << "è«‹è¼¸å…¥é‚Šb:";
 	cin >> b ;
 	c=x(a,b); 
 	
-	cout<<"±×Ãä"<< c <<endl ;
+	cout<<"æ–œé‚Š"<< c <<endl ;
 	ar =  y(a,b);
-	cout<<"­±¿n"<< ar <<endl<<endl ;
+	cout<<"é¢ç©"<< ar <<endl<<endl ;
 	
-	cout << "½Ğ¿é¤J­û¥b®|";
+	cout << "è«‹è¼¸å…¥å“¡åŠå¾‘";
 	cin >> r;
 	ran = z(r);
-	cout << "­±¿n"<<ran; 
+	cout << "é¢ç©"<<ran; 
 	
 return 0;	
 }
